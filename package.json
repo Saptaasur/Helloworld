@@ -2,7 +2,7 @@
   "name": "hw",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "www.js",
   
   "scripts": {
     "dev": "nodemon ./bin/www.js",
