@@ -1,13 +1,10 @@
 {
   "name": "hw",
-  "version": "1.0.0",
-  "description": "",
-  "main": "www.js",
-  
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "nodemon ./bin/www.js",
-    "start": "node ./bin/www.js",
-    "build": "npm install && npm install --prefix client && npm run build --prefix client"
+    "start": "node ./bin/www"
+    
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
