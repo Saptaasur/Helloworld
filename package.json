@@ -6,7 +6,7 @@
   
   "scripts": {
     "dev": "nodemon routes/index.js",
-    "start": "node routes/index.js",
+    "start": "node ./bin/www.js",
     "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
